@@ -8,6 +8,10 @@
 
   <ItemGroup>
     <Folder Include="Enums\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Commons\" />
+    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>
