@@ -12,38 +12,35 @@ https://templatemo.com/tm-584-pod-talk
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #00CC99;
-  --secondary-color:              #0066CC;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #0066CC;
-  --custom-btn-bg-hover-color:    #00CC99;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #0066CC;
-
-  --body-font-family:             'Montserrat', sans-serif;
-  --title-font-family:            'Sono', sans-serif;
-
-  --h1-font-size:                 58px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  16px;
-  --menu-font-size:               14px;
-
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
-
-  --font-weight-light:            300;
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-semibold:         600;
-  --font-weight-bold:             700;
+    --transparent-color: #ffffff00;
+    --white-color: #ffffff;
+    --primary-color: #00CC99;
+    --secondary-color: #0066CC;
+    --section-bg-color: #f0f8ff;
+    --custom-btn-bg-color: #0066CC;
+    --custom-btn-bg-hover-color: #00CC99;
+    --dark-color: #000000;
+    --p-color: #717275;
+    --border-color: #7fffd4;
+    --link-hover-color: #0066CC;
+    --body-font-family: 'Montserrat', sans-serif;
+    --title-font-family: 'Sono', sans-serif;
+    --h1-font-size: 58px;
+    --h2-font-size: 46px;
+    --h3-font-size: 32px;
+    --h4-font-size: 28px;
+    --h5-font-size: 24px;
+    --h6-font-size: 22px;
+    --p-font-size: 16px;
+    --menu-font-size: 14px;
+    --border-radius-large: 100px;
+    --border-radius-medium: 20px;
+    --border-radius-small: 10px;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
 }
 
 body {
@@ -63,6 +60,8 @@ h5,
 h6 {
   color: var(--dark-color);
 }
+
+
 
 h1,
 h2,
@@ -521,13 +520,13 @@ main {
 }
 
 .owl-carousel-info {
-  background-color: var(--section-bg-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 30px;
+    background-color: var(--transparent-color);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
 }
 
 .badge {
