@@ -13,4 +13,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FFoods.DataAccess\FFoods.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
