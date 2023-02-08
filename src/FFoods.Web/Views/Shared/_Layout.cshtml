@@ -6,12 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk - Free Bootstrap 5 CSS Template</title>
-
-@*    <title>@ViewData["Title"] - FFoods.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/FFoods.Web.styles.css" asp-append-version="true" />*@
+    <title>FFoods</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
@@ -20,13 +15,12 @@
     <link rel="stylesheet" href="~/css/owl.carousel.min.css">
     <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
     <link href="~/css/templatemo-pod-talk.css" rel="stylesheet">
-
-
+    <link href="~/css/navbars-style.css" rel="stylesheet">
 </head>
+
 <body>
 
     <main>
-
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand me-lg-5 me-0" href="index.html">
@@ -83,7 +77,7 @@
         </nav>
 
 
-        <section class="hero-section">
+        <section class="hero-section" style="padding-top: 140px;">
             <div class="container">
                 <div class="row">
 
@@ -96,7 +90,7 @@
                             <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Maxsulotlarimiz</a>
                         </div>
 
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme" >
                             <div class="owl-carousel-info-wrap item">
                                 <img src="images/profile/wallpaperflare-cropped (8).jpg"
                                      class="owl-carousel-image img-fluid" alt="">
@@ -170,146 +164,421 @@
                                     <h4 class="mb-2" style="color:white">
                                         Burger
                                         <img src="images/verified.png" class="owl-carousel-verified-image img-fluid" alt="">
-                                    </h4>
+                                    </h4>   
                                 </div>
                                
                             </div>
                         </div>
-                    </div>
 
+                    </div>
+                   
                 </div>
             </div>
         </section>
 
-
-        <section class="latest-podcast-section section-padding pb-0" id="section_2">
+        <section id="section_menu" style="padding: 10px; height:100px">
+            <nav class="navMenu"; style="z-index: 1; margin-top:1px; height:100px; font-family:Arial; font-weight:bold">
+                <div style="display:flex">
+                     <div>
+                          <a href="#section_2" style="font-family:Arial; font-weight:bold">Burger</a>
+                          <div class="dot"></div>
+                     </div>
+                    <div>
+                        <a href="#section_lavash" style="font-family:Arial; font-weight:bold">Lavash</a>
+                        <div class="dot"></div>
+                    </div>
+                    <div>
+                        <a href="#section_hotdog" style="font-family:Arial; font-weight:bold">Hot-dog</a>
+                        <div class="dot"></div>
+                    </div>
+                    <div>
+                        <a href="#section_shourma" style="font-family:Arial; font-weight:bold">Shourma</a>
+                        <div class="dot"></div>
+                    </div>
+                    <div>
+                        <a href="#section_ichimlik" style="font-family:Arial; font-weight:bold">Ichimliklar</a>
+                        <div class="dot"></div>
+                    </div>
+                    <div>
+                        <a href="#section_qoshimchalar" style="font-family:Arial; font-weight:bold">Boshqalar</a>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+               
+            </nav>
+        </section>
+        
+        <section class="latest-podcast-section section-padding pb-0" id="section_2" style="padding:10px">
             <div class="container">
                 <div class="row justify-content-center">
 
+
                     <div class="col-lg-12 col-12">
                         <div class="section-title-wrap mb-5">
-                            <h4 class="section-title">Menu</h4>
+                            <h4 class="section-title">Burger</h4>
                         </div>
                     </div>
 
-                  @*  <div class="centerii">
-                        <div class="cardd">
-                            <img src="https://i.pinimg.com/originals/10/f7/41/10f7414c0d4984194f5e1316bd61ca0d.png" class="foto" style="width:10%">
-                            <h1>NIKE AM90id</h1>
-                        </div>
-                    </div>*@
-                    @*<div class="col-lg-6 col-12 mb-4 mb-lg-0">
-
-                        <div class="custom-block d-flex">
-                            <div class="custom-block-info">
-                                <div class="profile-block d-flex">
-                                    <img src="images/profile/woman-posing-black-dress-medium-shot.jpg"
-                                         class="profile-block-image img-fluid" alt="">
-                                    <p>
-                                        <strong>Influencer</strong>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="">
-                                <div class="custom-block-icon-wrap">
-                                    <div
-                                        class="section-overlay">
-                                    </div>
-                                </div>
-
-                                <div class="mt-2">
-                                    <a href="#" class="btn custom-btn">
-                                        Savatga qo'shish
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="custom-block d-flex">
-                            <div class="">
-                                <div class="custom-block-icon-wrap">
-                                    <div class="section-overlay"></div>
-                                    <a href="detail-page.html" class="custom-block-image-wrap">
-                                        <img src="images/podcast/12577967_02.jpg" class="custom-block-image img-fluid"
-                                             alt="">
-
-                                        <a href="#" class="custom-block-icon">
-                                            <i class="bi-play-fill"></i>
-                                        </a>
-                                    </a>
-                                </div>
-
-                                <div class="mt-2">
-                                    <a href="#" class="btn custom-btn">
-                                        Subscribe
-                                    </a>
-                                </div>
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
                             </div>
 
                             <div class="custom-block-info">
-                                <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        <i class="bi-clock-fill custom-icon"></i>
-                                        15 Minutes
-                                    </small>
-
-                                    <small>Episode <span class="badge">45</span></small>
-                                </div>
-
                                 <h5 class="mb-2">
                                     <a href="detail-page.html">
-                                        Daily Talk
+                                        Vintage Show
                                     </a>
                                 </h5>
 
-                                <div class="profile-block d-flex">
-                                    <img src="images/profile/handsome-asian-man-listening-music-through-headphones.jpg"
-                                         class="profile-block-image img-fluid" alt="">
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
 
-                                    <p>
-                                        William
-                                        <strong>Vlogger</strong>
-                                    </p>
-                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
 
                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
 
-                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
-                                    <a href="#" class="bi-headphones me-1">
-                                        <span>140k</span>
-                                    </a>
-
-                                    <a href="#" class="bi-heart me-1">
-                                        <span>22.4k</span>
-                                    </a>
-
-                                    <a href="#" class="bi-chat me-1">
-                                        <span>16k</span>
-                                    </a>
-
-                                    <a href="#" class="bi-download">
-                                        <span>62k</span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="d-flex flex-column ms-auto">
-                                <a href="#" class="badge ms-auto">
-                                    <i class="bi-heart"></i>
-                                </a>
-
-                                <a href="#" class="badge ms-auto">
-                                    <i class="bi-bookmark"></i>
-                                </a>
                             </div>
                         </div>
-                    </div>*@
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                         alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
+        <section class="latest-podcast-section section-padding pb-0" id="section_lavash" style="padding:10px">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Lavash</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                         alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-podcast-section section-padding pb-0" id="section_hotdog" style="padding:10px">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Hot-dog</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-podcast-section section-padding pb-0" id="section_shourma" style="padding:10px">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Shourma</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-podcast-section section-padding pb-0" id="section_ichimlik" style="padding:10px">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Ichimliklar</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                         alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-podcast-section section-padding pb-0" id="section_qoshimchalar" style="padding:10px">
+            <div class="container">
+                <div class="row justify-content-center">
+
+
+                    <div class="col-lg-12 col-12">
+                        <div class="section-title-wrap mb-5">
+                            <h4 class="section-title">Boshqalar</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0" style="padding-bottom: 15px; width: 25%">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
+                                <a href="detail-page.html">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
+                                         alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    <a href="detail-page.html">
+                                        Vintage Show
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="topics-section section-padding pb-0" id="section_3">
             <div class="container">
@@ -582,6 +851,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
 @*    <header>
