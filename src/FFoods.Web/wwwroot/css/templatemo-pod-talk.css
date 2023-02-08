@@ -479,8 +479,9 @@ main {
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
-  padding-top: 200px;
+  padding-top: 150px;
 }
+
 
 .owl-carousel {
   text-align: center;
@@ -817,6 +818,22 @@ main {
 .profile-detail-block p {
   margin-bottom: 0;
 }
+
+/*---------------------------------------
+  CATEGORY BLOCK               
+-----------------------------------------*/
+.category-block {
+    margin-top: 5px;
+}
+
+.category-block-image {
+    border-radius: var(--border-radius-large);
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
 
 
 /*---------------------------------------
