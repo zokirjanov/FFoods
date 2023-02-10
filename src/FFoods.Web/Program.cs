@@ -1,11 +1,14 @@
-var builder = WebApplication.CreateBuilder(args);
+using FFoods.DataAccess.DbContexts;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+// database
+string connectionStrgin = builder.Configuration.GetConnectionString("DatabaseConnection");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionStrgin));
 
-// Configure the HTTP request pipeline.
+var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -15,13 +18,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();

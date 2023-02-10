@@ -8,13 +8,9 @@
 	box-sizing: border-box;
 }
 
-/*body {
-	background: #b6ff00;
-	font-family: "Montserrat", sans-serif;
-}
-*/
 .navMenu {
-	position: absolute;
+/*	position: absolute;*/
+	padding-left: 15%;
 	top: 21%;
 	left: 15%;
 	-webkit-transform: translate(-0%, -0%);
