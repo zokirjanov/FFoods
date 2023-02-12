@@ -1,12 +1,11 @@
 using FFoods.DataAccess.DbContexts;
+using FFoods.Web.Configurations.LayerConfigurations;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
-
-// database
-string connectionStrgin = builder.Configuration.GetConnectionString("DatabaseConnection");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionStrgin));
+builder.Services.AddDataAccess(builder.Configuration);
+builder.Services.AddService();
 
 var app = builder.Build();
 if (!app.Environment.IsDevelopment())
